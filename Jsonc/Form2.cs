@@ -33,7 +33,7 @@ namespace Jsonc
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var estetica = new Estetica();
+            var estetica = new Estetica();///
             estetica.Nome = tx_nome.Text;
             estetica.Email = tx_email.Text; 
             estetica.Cpf = tx_cpf.Text;
